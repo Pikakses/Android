@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -95,13 +97,13 @@ fun ArtSpaceLayout(
             Button(
                 onClick = {
                     when(currentArtwork) {
-                        in 0..3 -> currentArtwork++
+                        in 1..4 -> currentArtwork--
                         else -> currentArtwork = 0
                     }
                 },
 
             ) {
-                Icon(imageVector = , contentDescription = )
+                Icon(imageVector = Icons.Default.ArrowBack, contentDescription = stringResource(R.string.previous_artwork))
             }
         }
     }
