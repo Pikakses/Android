@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="basketball_description">an expressive oil painting of a basketball player dunking, depicted as an explosion of a nebula</string>
+    <string name="mannequin_description">a pencil and watercolor drawing of a warehouse filled with mannequins in different positions of agony</string>
+    <string name="cyberpunk_city_description">a pastel painting of a cyberpunk city with a ramen shop in the foreground and colorful billboards in the background</string>
+    <string name="ship_description">An oil painting of a wooden ship sailing on the sea with the moon in the background</string>
+    <string name="zeus_description">an ancient painting of ancient greek god zeus holding a thunderstorm</string>
+    <string name="basketball">Basketball</string>
+    <string name="cyberpunk_city">Cyberpunk City</string>
+    <string name="ship">Ship</string>
+    <string name="zeus">Zeus</string>
+    <string name="mannequins">Mannequins</string>
+    <string name="dall_e">Dall-E (2023)</string>
+</resources>
