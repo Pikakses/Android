@@ -12,4 +12,5 @@
     <string name="mannequins">Mannequins</string>
     <string name="dall_e">Dall-E (2023)</string>
     <string name="previous_artwork">Previous artwork</string>
+    <string name="next_artwork">Next Artwork</string>
 </resources>
